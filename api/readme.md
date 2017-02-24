@@ -1,6 +1,6 @@
 # APIs
 
-## Modules
+## Modules 模块
 - [Html](./html.md)
 - [Shape](./shape.md)
 - [ShapeSwirl](./shape-swirl.md)
@@ -13,12 +13,11 @@
 - Goo Transfroms(soon)
 - Broom(soon)
 
-## Tweens
-
+## Tweens 补间
 - [Tween](./tweens/tween.md)
 - [Timeline](./tweens/timeline.md)
 
-## Easing
+## Easing 缓动
 - [Base Functions](./easing/base-functions.md)
 - [Bezier Curves](./easing/bezier-curves.md)
 - [Path Easing](./easing/path-easing.md)
@@ -27,7 +26,7 @@
 - Transforms(soon)
 - Mixes(soon)
 
-## Syntax
+## Syntax 语法
 - [Stagger Strings](./syntax/stagger.md)
 - [Rand Strings](./syntax/rand.md)
 - [Property Maps](./syntax/property-maps.md)
