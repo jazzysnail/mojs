@@ -2,12 +2,12 @@
 
 <img width="410" src="https://github.com/legomushroom/mojs/blob/master/motion-for-the-web-3.png?raw=true" alt="large mojs logo" />
 
-#### motion graphics toolbelt for the web [[mojs.io](http://mojs.io/)]
+#### 一个专注于Web端的运动图形工具组 [[mojs.io](http://mojs.io/)]
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/legomushroom.svg)](https://saucelabs.com/u/legomushroom)
 
-## Demos
-  - [Motion Graphics for the Web](http://codepen.io/sol0mka/full/ogOYJj/)
+## 演示
+  - [Motion Graphics for the Web](http://codepen.io/sol0mka/full/ogOYJj/)
   - [Bubble Layout](http://codepen.io/sol0mka/full/yNOage/)
   - [Sleepy Mole](http://codepen.io/sol0mka/full/OyzBXR)
   - [Animocons](http://tympanus.net/Development/Animocons/)
@@ -28,40 +28,37 @@
   - [Twitter Fav Firework](http://codepen.io/sol0mka/full/xOAKKA/) (click to see)
   - [Simple Ripple](http://codepen.io/sol0mka/full/XKdWJg/) (click to see)
 
-## Tutorials
-  - [Shape & Swirl](http://mojs.io/tutorials/shape/)
+## 教程
+  - [Shape & Swirl](http://mojs.io/tutorials/shape/)
   - [Burst](http://mojs.io/tutorials/burst/)
   - [Path Easing](http://mojs.io/tutorials/easing/path-easing/)
   - [Icon Animations Powered by mo.js](http://tympanus.net/codrops/2016/02/23/icon-animations-powered-by-mo-js/)
 
-## Docs
-  - [Reference](https://github.com/legomushroom/mojs/blob/master/api/readme.md)
+## 文档
+  - [Reference](https://github.com/legomushroom/mojs/blob/master/api/readme.md)
 
-## Tools
-  - [MojsPlayer](https://github.com/legomushroom/mojs-player)
+## 工具
+  - [MojsPlayer](https://github.com/legomushroom/mojs-player)
   - [MojsCurveEditor](https://github.com/legomushroom/mojs-curve-editor)
   - [Video with MojsPlayer and MojsCurveEditor](https://vimeo.com/185587462)
 
-## Installation
-
+## 安装
 npm: `npm install mo-js`
 
 cdn: `<script src="//cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>`  
 
 bower: `bower install mojs`
 
-## Notes
-Working hard on `APIs`, `tutorials` and `website`. Follow [@legomushroom](https://twitter.com/legomushroom) for updates. Star to show your interest.
-
-## Target browsers
+## 注
+您可以在`APIs`, `tutorials` 及 `website`上面进行贡献. 关注 [@legomushroom](https://twitter.com/legomushroom) 获得最新的消息. 如果您感兴趣的话请右上角Start！
+## 兼容浏览器版本
 - Chrome 4+
 - Firefox 4+
 - Opera 11.5+
 - Safari 4+
 - IE 9+
 
-## Thanks
-
+## 感谢
 Kudos to supporters on [Patreon](https://patreon.com/user?u=3219311&utm_medium=social&utm_source=twitter&utm_campaign=creatorshare):
 
 - [Zak Frisch](https://github.com/zfrisch)
