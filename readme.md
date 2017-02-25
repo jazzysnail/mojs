@@ -50,7 +50,7 @@ cdn: `<script src="//cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>`
 bower: `bower install mojs`
 
 ## 注
-您可以在`APIs`, `tutorials` 及 `website`上面进行贡献. 关注 [@legomushroom](https://twitter.com/legomushroom) 获得最新的消息. 如果您感兴趣的话请右上角Start！
+您可以在`APIs`、`tutorials` 及 `website`上面进行贡献.。关注 [@legomushroom](https://twitter.com/legomushroom) 获得最新的消息。如果您感兴趣的话请右上角Star！
 ## 兼容浏览器版本
 - Chrome 4+
 - Firefox 4+
