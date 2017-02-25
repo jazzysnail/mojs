@@ -1,54 +1,53 @@
 # Html
 
-References:
+参考文档:
 
 - [CodePen Example](http://codepen.io/sol0mka/pen/b8831849500f0d5cd0ab5691ebe17873?editors=0010)
 - [Tween API](./tweens/tween.md)
 - [back](./readme.md)
 
-Contents:
+目录:
 
-  - [Full API Reference](#full-api-reference)
+  - [完整的API参考](#full-api-reference)
   - [Other CSS properties](#other-css-properties)
   - [Teach mojs with customProperties](#teach-mojs-with-customproperties)
   - [Independent deltas](#independent-deltas)
 
-### Full API Reference:
+### 完整的API参考:
 
-The module has `transforms/opacity` (`x`, `y`, `opacity` etc.) predefined properties listed below. Browsers can handle animation of that properties easily, so ideally you should not use properties besides predefined set.
-
+模块包含了 `transforms/opacity` (`x`、 `y`、`opacity` 等。) 上面所列出的一些预定义属性。浏览器可以很轻松的处理这些预定义动画属性，所以在理想情况下，您可以不需要使用预设集合以外的属性来完成所有的工作。
 ```javascript
 const html = new mojs.Html({
-  // HTMLElement to animate. {String, Object} [selector, HTMLElement]
+  // HTML元素 {String, Object} [selector, HTMLElement]
   el:           null,
-  // ∆ :: translateX property. {String, Number, Object} [value, delta]
+  // ∆ :: translateX 属性. {String, Number, Object} [value, delta]
   x:          0,
-  // ∆ :: translateY property. {String, Number, Object} [value, delta]
+  // ∆ :: translateY 属性. {String, Number, Object} [value, delta]
   y:          0,
-  // ∆ :: translateZ property. {String, Number, Object} [value, delta]
+  // ∆ :: translateZ 属性. {String, Number, Object} [value, delta]
   z:          0,
-  // ∆ :: skewX property. {String, Number, Object} [value, delta]
+  // ∆ :: skewX 属性. {String, Number, Object} [value, delta]
   skewX:      0,
-  // ∆ :: skewY property. {String, Number, Object} [value, delta]
+  // ∆ :: skewY 属性. {String, Number, Object} [value, delta]
   skewY:      0,
-  // ∆ :: rotateX property. {String, Number, Object} [value, delta]
+  // ∆ :: X轴-旋转 属性. {String, Number, Object} [value, delta]
   angleX:     0,
-  // ∆ :: rotateY property. {String, Number, Object} [value, delta]
+  // ∆ :: Y轴-旋转 属性. {String, Number, Object} [value, delta]
   angleY:     0,
-  // ∆ :: rotateZ property. {String, Number, Object} [value, delta]
+  // ∆ :: Z轴-旋转 属性. {String, Number, Object} [value, delta]
   angleZ:     0,
-  // ∆ :: scale property. {String, Number, Object} [value, delta]
+  // ∆ :: 比例 属性. {String, Number, Object} [value, delta]
   scale:      1,
-  // ∆ :: scaleX property. {String, Number, Object} [value, delta]
+  // ∆ :: 横向-比例 属性. {String, Number, Object} [value, delta]
   scaleX:     1,
-  // ∆ :: scaleY property. {String, Number, Object} [value, delta]
+  // ∆ :: 纵向-比例 属性. {String, Number, Object} [value, delta]
   scaleY:     1,
-  // ∆ :: opacity property. {String, Number, Object} [value, delta]
+  // ∆ :: 不透明度 属性. {String, Number, Object} [value, delta]
   opacity:    1,
   
   /*
-    For other CSS properties please see `Other CSS properties` section.
-  */
+    关于其他的CSS属性请查阅`其它CSS属性`部分。
+  */
 
   // Custom properties to alter mojs behaviour (see `Teach mojs with customProperties` section). {Object}
   customProperties: null,
